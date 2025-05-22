@@ -1,100 +1,100 @@
-# 🌀 Fractol - Fractais em C com MiniLibX
+# 🌀 Fractol - Fractals in C with MiniLibX
 
-Projeto desenvolvido como parte do currículo da 42 School, cujo objetivo é gerar e explorar fractais matemáticos interativos utilizando a biblioteca gráfica [MiniLibX](https://harm-smits.github.io/42docs/libs/minilibx).
+This project was developed as part of the 42 School curriculum. It generates and allows interactive exploration of mathematical fractals using the lightweight graphics library [MiniLibX](https://harm-smits.github.io/42docs/libs/minilibx).
 
-## 📸 Demonstração
+## 📸 Demo
 
-// Inserir aqui um GIF ou screenshot do fractal em execução (ex: fractal Julia com zoom interativo)
+// Add a GIF or screenshot of the running program (e.g., Julia fractal with zoom)
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-- Renderização de fractais em tempo real:
+- Real-time rendering of fractals:
   - Mandelbrot
-  - Julia (com entrada personalizada)
+  - Julia (with custom parameters)
   - Burning Ship
-- Suporte a zoom com scroll do mouse
-- Navegação com teclado (opcional)
-- Parâmetros ajustáveis via linha de comando
-- Sem vazamentos de memória (verificado com Valgrind ✅)
+- Zoom using mouse scroll
+- Optional keyboard navigation
+- CLI parameter selection
+- Memory leak-free (verified with Valgrind ✅)
 
 ---
 
-## 🧠 Conceitos Matemáticos
+## 🧠 Mathematical Background
 
-Os fractais são gerados a partir de fórmulas iterativas no plano complexo:
+Fractals are generated through iterative formulas in the complex plane:
 
 - **Mandelbrot:**  
-  Zₙ₊₁ = Zₙ² + C, com Z₀ = 0
+  Zₙ₊₁ = Zₙ² + C, with Z₀ = 0
 
 - **Julia:**  
-  Zₙ₊₁ = Zₙ² + C, com Z₀ sendo o pixel, e C fornecido pelo usuário
+  Zₙ₊₁ = Zₙ² + C, with Z₀ as the pixel position and C defined by the user
 
 - **Burning Ship:**  
   Zₙ₊₁ = (|Re(Zₙ)| + i·|Im(Zₙ)|)² + C
 
 ---
 
-## ⚙️ Como compilar
+## ⚙️ How to Compile
 
-// Este projeto é compatível com Linux e requer a biblioteca MiniLibX.
+// This project is Linux-compatible and requires MiniLibX.
 
-// 1. Instalar dependências (Debian/Ubuntu):
+// 1. Install dependencies (Debian/Ubuntu):
 sudo apt-get install libx11-dev libxext-dev libbsd-dev
 
-// 2. Clonar o repositório:
-git clone https://github.com/teu-usuario/fractol.git
+// 2. Clone the repository:
+git clone https://github.com/your-username/fractol.git
 cd fractol
 
-// 3. Compilar:
+// 3. Compile:
 make
 
 ---
 
-## 🖥️ Como executar
+## 🖥️ How to Run
 
 ./fractol <fractal_type>
 
-// Parâmetros válidos:
-- `julia` → Conjunto de Julia
-- `mandelbrot` → Conjunto de Mandelbrot
+// Available fractal types:
+- `julia` → Julia Set
+- `mandelbrot` → Mandelbrot Set
 - `burning_ship` → Burning Ship
 
-// Exemplo:
+// Example:
 ./fractol julia
 
-Se escolher `julia`, o programa solicitará os valores reais e imaginários para `c`.
+If you choose `julia`, the program will ask you to input the real and imaginary parts of `C`.
 
 ---
 
-## 🖱️ Controles
+## 🖱️ Controls
 
-| Ação            | Comando         |
-|-----------------|-----------------|
-| Zoom In/Out     | Scroll do mouse |
-| Fechar janela   | Tecla `ESC` ou botão X |
-| Ajustar iterações (opcional) | Botões adicionais (ex: clique direito) |
-
----
-
-## 🔎 Validação
-
-Verificado com:
-- `valgrind` → Sem vazamentos de memória
-- `norminette` → Conforme as regras da 42 (se aplicável)
+| Action            | Input            |
+|-------------------|------------------|
+| Zoom in/out       | Mouse scroll     |
+| Close window      | `ESC` key or X button |
+| Change iterations | Optional mouse/key inputs |
 
 ---
 
-## 👨‍💻 Autor
+## 🔎 Validation
 
-| Nome     | GitHub             | Escola 42 |
-|----------|--------------------|-----------|
-| Cassiano | [@teu-usuario](https://github.com/teu-usuario) | 42 Lisboa |
+Verified with:
+- `valgrind` → No memory leaks
+- `norminette` → 42 style guide (if applicable)
 
 ---
 
-## 📄 Licença
+## 👨‍💻 Author
 
-Este projeto é parte do currículo pedagógico da 42 School. Uso educacional e pessoal.
+| Name     | GitHub                   | 42 Campus |
+|----------|--------------------------|-----------|
+| Cassiano | [@your-username](https://github.com/your-username) | 42 Lisboa |
+
+---
+
+## 📄 License
+
+This project is part of the 42 School educational curriculum. For educational and personal use only.
 
