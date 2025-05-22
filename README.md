@@ -4,7 +4,7 @@ This project was developed as part of the 42 School curriculum. It generates and
 
 ## 📸 Demo
 
-// Add a GIF or screenshot of the running program (e.g., Julia fractal with zoom)
+// note: GIF or screenshot of the running program (e.g., Julia fractal with zoom)
 
 ---
 
@@ -44,7 +44,7 @@ Fractals are generated through iterative formulas in the complex plane:
 sudo apt-get install libx11-dev libxext-dev libbsd-dev
 
 // 2. Clone the repository:
-git clone https://github.com/your-username/fractol.git
+git clone https://github.com/Zorug/fractol.git
 cd fractol
 
 // 3. Compile:
@@ -88,9 +88,8 @@ Verified with:
 
 ## 👨‍💻 Author
 
-| Name     | GitHub                   | 42 Campus |
-|----------|--------------------------|-----------|
-| Cassiano | [@your-username](https://github.com/your-username) | 42 Lisboa |
+| [<img src="https://avatars.githubusercontent.com/u/54179576?v=4" width=115><br><sub>Cassiano Gross Schuler</sub>](https://github.com/Zorug) | 
+| :---: |
 
 ---
 
