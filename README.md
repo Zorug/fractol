@@ -4,7 +4,7 @@ This project was developed as part of the 42 School curriculum. It generates and
 
 ## 📸 Demo
 
-// note: GIF or screenshot of the running program (e.g., Julia fractal with zoom)
+### note: GIF or screenshot of the running program (e.g., Julia fractal with zoom)
 
 ---
 
@@ -38,16 +38,16 @@ Fractals are generated through iterative formulas in the complex plane:
 
 ## ⚙️ How to Compile
 
-// This project is Linux-compatible and requires MiniLibX.
+### This project is Linux-compatible and requires MiniLibX.
 
-// 1. Install dependencies (Debian/Ubuntu):
+### 1. Install dependencies (Debian/Ubuntu):
 sudo apt-get install libx11-dev libxext-dev libbsd-dev
 
-// 2. Clone the repository:
+### 2. Clone the repository:
 git clone https://github.com/Zorug/fractol.git
 cd fractol
 
-// 3. Compile:
+### 3. Compile:
 make
 
 ---
@@ -56,12 +56,12 @@ make
 
 ./fractol <fractal_type>
 
-// Available fractal types:
+### Available fractal types:
 - `julia` → Julia Set
 - `mandelbrot` → Mandelbrot Set
 - `burning_ship` → Burning Ship
 
-// Example:
+### Example:
 ./fractol julia
 
 If you choose `julia`, the program will ask you to input the real and imaginary parts of `C`.
