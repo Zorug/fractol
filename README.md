@@ -7,9 +7,6 @@ This project was developed as part of the 42 School curriculum. It generates and
 ### note: GIF or screenshot of the running program (e.g., Julia fractal with zoom)
 
 ---
-| [<img src="https://github.com/Zorug/fractol/blob/main/fractols-gif/burning_ship.gif" width=115><br><sub>Cassiano Gross Schuler</sub>](https://github.com/Zorug) | 
-| [<img src="https://github.com/Zorug/fractol/blob/main/fractols-gif/julia-0.40.6i-a.gif" width=115><br><sub>Cassiano Gross Schuler</sub>](https://github.com/Zorug) | 
-| [<img src="https://avatars.githubusercontent.com/u/54179576?v=4" width=115><br><sub>Cassiano Gross Schuler</sub>](https://github.com/Zorug) | 
 
 ## 🚀 Features
 
