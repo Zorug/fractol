@@ -4,7 +4,7 @@ This project was developed as part of the 42 School curriculum. It generates and
 
 ## 📸 Demo
 
-### note: GIF or screenshot of the running program (e.g., Julia fractal with zoom)
+![Burning Ship Fractal](https://github.com/Zorug/fractol/blob/main/fractols-gif/burning_ship.gif?raw=true)
 
 ---
 
