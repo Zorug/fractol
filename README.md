@@ -6,6 +6,8 @@ This project was developed as part of the 42 School curriculum. It generates and
 
 ![Burning Ship Fractal](https://github.com/Zorug/fractol/blob/main/fractols-gif/burning_ship.gif?raw=true)
 
+*A live rendering of the Burning Ship fractal with dynamic zoom based on mouse position. The detail increases with each zoom level, revealing the self-similar structure of the fractal.*
+
 ---
 
 ## 🚀 Features
